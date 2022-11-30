@@ -12,14 +12,16 @@
   * Test: 6196 examples
 
 ## Abusive Reddit Comments
-* Source: (#link)
+* Source: [(#link)](https://zenodo.org/record/4881008#.Y4S1XexBy3K )
 
-* Format:
+* Format: tsv
 
 * Dataset size
-  * Train: ## examples
-  * Dev: ## examples
-  * Test: ## examples
+  * Train: 13585
+  * Dev: 4527
+  * Test: 5308
+
+<img width="350" alt="Screen Shot 2022-11-30 at 10 31 45 AM" src="https://user-images.githubusercontent.com/104866320/204693384-43d52be0-a557-4be8-80da-5bab6e3068fe.png">
 
 ## Political Twitter Hatespeech
 * Source: (#link)
