@@ -44,11 +44,18 @@
   * Test: ## examples
 
 ## Toxic Wikipedia Comments
-* Source: (#link)
+* Source: https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data
 
-* Format:
+* Format: csv
+   * `id`: comment id 
+   * `comment_text`: The text of the comment.
+   * `hate_speech`: Boolean. 1 if the comment is hate speech and 0 if it's not hate speech.
 
 * Dataset size
-  * Train: ## examples
-  * Dev: ## examples
-  * Test: ## examples
+  * Train: 127656 examples
+  * Dev: 31915 examples
+  * Test: 63978 examples
+
+* Sample Comments
+  * Hate Speech: You people are posting the WRONG results so its MY problem jackass
+  * Not Hate Speech: Fine. (Are we going to change all the others, too? No? Just asking.) Schmuckola could have saved a lot of grief by simply citing the policy, rather than strutting around like some self-important little peacock. (But that's Wikipedia; it has a tendency to attract such people. Whatever.)
