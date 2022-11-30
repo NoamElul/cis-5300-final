@@ -1,15 +1,19 @@
 ## Twitter Hatespeech
 * Source: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
-  * Anything whose majority class was "hate speech" (0) was marked as "problematic"
+  * Dataset of tweets labeled by several labelers for hate speech, offensive language, or both. We preprocessed and only kept the text input, and a target indicating whether the text is problematic. Anything whose majority class was "hate speech" (0) was marked as "problematic" in our processed dataset.
 
 * Format:
-  * `text`: Input. String. The text of the tweet/comment/post
-  * `problematic`: Target. Boolean, as 1 or 0. Whether the text is problematic (that is, whether it is hate speech)
+  * `text`: Input. String. The text of the tweet.
+  * `problematic`: Target. Boolean, as 1 or 0. Whether the text is hate speech.
 
 * Dataset size
   * Train: 12391 examples
   * Dev: 6196 examples
   * Test: 6196 examples
+
+* Examples (`text`, `problematic`)
+  * *"RT @Annnna_dav69: I hate trailer trash &#128567;"*, 1
+  * *"The irony is so deep you can use a shovel."*, 0
 
 ## Abusive Reddit Comments
 
