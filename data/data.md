@@ -12,7 +12,7 @@
   * Test: 6196 examples
 
 ## Abusive Reddit Comments
-* Source: [(#link)](https://zenodo.org/record/4881008#.Y4S1XexBy3K )
+* Source: [Reddit Datasets](https://zenodo.org/record/4881008#.Y4S1XexBy3K )
 
 * Format: tsv
 
