@@ -12,7 +12,7 @@
   * Dev: 6196 examples
   * Test: 6196 examples
 
-## Reddit Abusive Comments
+## Abusive Reddit Comments
 * Source: (#link)
 
 * Dataset size
