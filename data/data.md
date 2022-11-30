@@ -34,11 +34,14 @@
   * Test: ## examples
 
 ## Toxic Wikipedia Comments
-* Source: (#link)
+* Source: https://drive.google.com/drive/folders/1-lqUa8oPOMF6EsFEQyOgjBkPe2Apf5th?usp=sharing
 
-* Format:
+* Format: csv
+  * `id`: comment id 
+  * `comment_text`: The text of the comment.
+  * `hate_speech`: Boolean. 1 if the comment is hate speech and 0 if it's not hate speech.
 
 * Dataset size
-  * Train: ## examples
-  * Dev: ## examples
-  * Test: ## examples
+  * Train: 127656 examples
+  * Dev: 31915 examples
+  * Test: 63978 examples
