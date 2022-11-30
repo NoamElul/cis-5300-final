@@ -57,5 +57,5 @@
   * Test: 63978 examples
 
 * Sample Comments
-  * Hate Speech: You people are posting the WRONG results so its MY problem jackass
-  * Not Hate Speech: Fine. (Are we going to change all the others, too? No? Just asking.) Schmuckola could have saved a lot of grief by simply citing the policy, rather than strutting around like some self-important little peacock. (But that's Wikipedia; it has a tendency to attract such people. Whatever.)
+  * `Hate Speech`: You people are posting the WRONG results so its MY problem jackass
+  * `Not Hate Speech`: Fine. (Are we going to change all the others, too? No? Just asking.) Schmuckola could have saved a lot of grief by simply citing the policy, rather than strutting around like some self-important little peacock. (But that's Wikipedia; it has a tendency to attract such people. Whatever.)
