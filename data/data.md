@@ -1,8 +1,3 @@
-# Format
-* The data contains the following columns:
-  * `text`: String. The text of the tweet/comment/post
-  * `problematic`: Boolean, as 1 or 0. Whether the text is problematic (that is, whether it is hate speech/abusive/toxic)
-
 ## Twitter Hatespeech
 * Source: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
   * Anything whose majority class was "hate speech" (0) was marked as "problematic"
@@ -14,6 +9,10 @@
 
 ## Abusive Reddit Comments
 * Source: (#link)
+
+* Format:
+  * `text`: Input. String. The text of the tweet/comment/post
+  * `problematic`: Target. Boolean, as 1 or 0. Whether the text is problematic (that is, whether it is hate speech)
 
 * Dataset size
   * Train: ## examples
