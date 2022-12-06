@@ -12,14 +12,16 @@ def main():
 def parse_df(input_df):
     def parse_row(row):
         text = row.tweet
-        problematic = int(int(row.majority_class) == 0)
+        # problematic = int(int(row.majority_class) != 2) # w/ offsensive
+        problematic = int(int(row.majority_class) == 0) # w/o offensive
         return (text, problematic)
 
     return pd.DataFrame([parse_row(r) for r in input_df.itertuples()], columns=['text', 'problematic'])
 
 def train_dev_test_split(df, train_dev_test=(0.5, 0.25, 0.25)):
     
-    output_folder = Path('../')
+    # output_folder = Path('../with_offensive_language')
+    output_folder = Path('../without_offensive_language')
     
     train, dev, test = train_dev_test
     if ((train + test + dev) != 1) or (not all(x >= 0.0 and x <= 1.0 for x in (train_dev_test))):
