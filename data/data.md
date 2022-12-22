@@ -1,6 +1,6 @@
 ## Twitter Hatespeech
 * Source: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
-  * Dataset of tweets labeled by several labelers for hate speech, offensive language, or both. We preprocessed and only kept the text input, and a target indicating whether the text is problematic. Anything whose majority class was "hate speech" (0) was marked as "problematic" in our processed dataset.
+  * Dataset of tweets labeled by several labelers for hate speech, offensive language, or both. We preprocessed and only kept the text input, and a target indicating whether the text is problematic. We created two versions of this dataset: In the "strict" version, anything whose majority class was "hate speech" (0) was marked as "problematic" in our processed dataset. In the "loose" version, anything whose majority class was "hate speech" (0) or "offensive language" (1) was marked as "problematic" in our processed dataset.
 
 * Format:
   * `text`: Input. String. The text of the tweet.
